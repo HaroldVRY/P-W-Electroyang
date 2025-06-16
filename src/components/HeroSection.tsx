@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 
+
 export const HeroSection = () => {
   const scrollToContact = () => {
     const element = document.getElementById('contact');
@@ -61,7 +62,7 @@ export const HeroSection = () => {
             {/* Imagen principal del taller de trabajo */}
             <div className="relative bg-gradient-to-r from-gray-800 to-gray-600 rounded-lg p-4 shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=300&fit=crop" 
+                src="taller.png" 
                 alt="Taller de bobinado ELECTROYANG - Instalaciones modernas para motores industriales"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -74,7 +75,7 @@ export const HeroSection = () => {
             {/* Imagen del equipo de trabajo */}
             <div className="relative bg-gradient-to-r from-gray-700 to-gray-500 rounded-lg p-4 shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600&h=250&fit=crop" 
+                src="equipo.jpg" 
                 alt="Equipo técnico ELECTROYANG - Personal especializado con EPP completo"
                 className="w-full h-48 object-cover rounded-lg"
               />
