@@ -1,0 +1,22 @@
+project_id = "ihblmchnhtslguadmrzx"
+
+[functions.chatbot]
+verify_jwt = false
+
+[functions.sensors_ingest]
+verify_jwt = false
+
+[functions.gemelo_simulate]
+verify_jwt = false
+
+[functions.wallet_transfer]
+verify_jwt = true
+
+[functions.credits_settlement]
+verify_jwt = false
+
+[functions.kiosk_redeem]
+verify_jwt = true
+
+[functions.sync]
+verify_jwt = true

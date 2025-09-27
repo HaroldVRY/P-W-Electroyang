@@ -1,0 +1,25 @@
+{
+  "name": "EnerTwin - Red Energética Comunitaria",
+  "short_name": "EnerTwin",
+  "description": "Plataforma de gestión de energía comunitaria con gemelo digital",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/placeholder.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/placeholder.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "es",
+  "screenshots": []
+}
