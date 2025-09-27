@@ -1,13 +1,13 @@
 [build]
-  # Comando de build
-  command = "npm run build"
+  # Comando de build con flag para resolver conflictos de peer dependencies
+  command = "npm install --legacy-peer-deps && npm run build"
   # Directorio donde se genera el build
   publish = "dist"
   
   # Variables de entorno para el build
   [build.environment]
     NODE_VERSION = "18"
-    NPM_VERSION = "9"
+    NPM_VERSION = "10"
 
 # Configuración para Single Page Application (React Router)
 [[redirects]]
